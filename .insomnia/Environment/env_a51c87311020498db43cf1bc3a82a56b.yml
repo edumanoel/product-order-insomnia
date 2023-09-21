@@ -1,0 +1,22 @@
+_id: env_a51c87311020498db43cf1bc3a82a56b
+type: Environment
+parentId: env_9ef90e62043ef2420622ec377cfa84c71196df87
+modified: 1695141441829
+created: 1695139457388
+name: localhost
+data:
+  protocol: http
+  domain: localhost
+  port: "8080"
+  base_url: "{{ _.protocol }}://{{ _.domain }}:{{ _.port }}"
+  id: "{% request 'parameter', 'id', 0 %}"
+dataPropertyOrder:
+  "&":
+    - protocol
+    - domain
+    - port
+    - base_url
+    - id
+color: null
+isPrivate: false
+metaSortKey: 1695139457388

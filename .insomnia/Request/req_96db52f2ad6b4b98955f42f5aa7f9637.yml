@@ -1,0 +1,23 @@
+_id: req_96db52f2ad6b4b98955f42f5aa7f9637
+type: Request
+parentId: wrk_dc85ad1ffef841c2905b733cc00e9e0b
+modified: 1695163508191
+created: 1695163494920
+url: "{{ _.base_url }}/products"
+name: Products FindAll
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695139631653
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

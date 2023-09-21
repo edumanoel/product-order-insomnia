@@ -1,0 +1,28 @@
+_id: req_ebb063f4724346eca5dbb5b5f99d379f
+type: Request
+parentId: wrk_dc85ad1ffef841c2905b733cc00e9e0b
+modified: 1695141769373
+created: 1695141758498
+url: "{{ _.base_url }}/orders/{% request 'parameter', 'id', 0 %}"
+name: Orders FindById
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_7ff6a8b63a9a43a79fb8b403de464577
+    name: id
+    value: "1"
+    description: ""
+    disabled: true
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695139631953
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
