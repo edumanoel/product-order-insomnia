@@ -1,0 +1,28 @@
+_id: req_a28eaeab4731494c83551044dbdbe337
+type: Request
+parentId: wrk_dc85ad1ffef841c2905b733cc00e9e0b
+modified: 1695765590969
+created: 1695765370381
+url: "{{ _.base_url }}/users/{% request 'parameter', 'id', 0 %}"
+name: Users DeleteById
+description: ""
+method: DELETE
+body: {}
+parameters:
+  - id: pair_7ff6a8b63a9a43a79fb8b403de464577
+    name: id
+    value: "3"
+    description: ""
+    disabled: true
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695139632128
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_d4fa2dae34444ea58ed1ff99f0023aa2
+type: Request
+parentId: wrk_dc85ad1ffef841c2905b733cc00e9e0b
+modified: 1695764275785
+created: 1695764234355
+url: "{{ _.base_url }}/users"
+name: Users Insert
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    { 
+     "name": "Bob Brown", 
+     "email": "bob@gmail.com", 
+     "phone": "977557755", 
+     "password": "123456" 
+    } 
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695139632103
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
