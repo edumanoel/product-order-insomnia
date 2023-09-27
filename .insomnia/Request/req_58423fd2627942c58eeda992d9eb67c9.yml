@@ -1,24 +1,24 @@
-_id: req_ebb063f4724346eca5dbb5b5f99d379f
+_id: req_58423fd2627942c58eeda992d9eb67c9
 type: Request
-parentId: fld_fa48292971ef4fa087e52db23c2e4e01
-modified: 1695841199220
-created: 1695141758498
-url: "{{ _.base_url }}/orders/{% request 'parameter', 'id', 0 %}"
-name: Orders FindById
+parentId: fld_82c8483eed03438daf00186ea4072563
+modified: 1695841534557
+created: 1695841029916
+url: "{{ _.base_url }}/products/{% request 'parameter', 'id', 0 %}"
+name: Products Not Found FindById
 description: ""
 method: GET
 body: {}
 parameters:
   - id: pair_7ff6a8b63a9a43a79fb8b403de464577
     name: id
-    value: "1"
+    value: "99"
     description: ""
     disabled: true
 headers:
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1695841195832
+metaSortKey: -1695841312284
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

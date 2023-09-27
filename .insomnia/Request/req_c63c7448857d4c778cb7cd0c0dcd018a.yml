@@ -1,7 +1,7 @@
 _id: req_c63c7448857d4c778cb7cd0c0dcd018a
 type: Request
-parentId: wrk_dc85ad1ffef841c2905b733cc00e9e0b
-modified: 1695303065990
+parentId: fld_11fd3ccf214a446194b84ffe5289c14a
+modified: 1695841238428
 created: 1695157539556
 url: "{{ _.base_url }}/categories/{% request 'parameter', 'id', 0 %}"
 name: Categories FindById
@@ -18,7 +18,7 @@ headers:
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1695139631753
+metaSortKey: -1695841230583
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

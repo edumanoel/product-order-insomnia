@@ -1,7 +1,7 @@
 _id: req_47b0037930b54a3b9164aa610f0adff9
 type: Request
-parentId: wrk_dc85ad1ffef841c2905b733cc00e9e0b
-modified: 1695141699319
+parentId: fld_3b1a5a28d9944f0585c81cc617e0a0e5
+modified: 1695841070013
 created: 1695140510422
 url: "{{ _.base_url }}/users/{% request 'parameter', 'id', 0 %}"
 name: Users FindById
@@ -18,7 +18,7 @@ headers:
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1695139632153
+metaSortKey: -1695841065489
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

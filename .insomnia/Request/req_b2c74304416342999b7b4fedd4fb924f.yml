@@ -1,24 +1,33 @@
-_id: req_a28eaeab4731494c83551044dbdbe337
+_id: req_b2c74304416342999b7b4fedd4fb924f
 type: Request
-parentId: fld_3b1a5a28d9944f0585c81cc617e0a0e5
-modified: 1695841076320
-created: 1695765370381
+parentId: fld_78bea83d4a8948c7aae165aa0290706a
+modified: 1695853857780
+created: 1695853836891
 url: "{{ _.base_url }}/users/{% request 'parameter', 'id', 0 %}"
-name: Users DeleteById
+name: Users Not Found Update
 description: ""
-method: DELETE
-body: {}
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    { 
+     "name": "Eduardo Belem", 
+     "email": "eduardo@mail.com", 
+     "phone": "977557755" 
+    } 
 parameters:
   - id: pair_7ff6a8b63a9a43a79fb8b403de464577
     name: id
-    value: "3"
+    value: "99"
     description: ""
     disabled: true
 headers:
+  - name: Content-Type
+    value: application/json
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1695841065289
+metaSortKey: -1695841121618
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

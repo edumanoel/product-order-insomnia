@@ -1,12 +1,12 @@
-_id: req_ebb063f4724346eca5dbb5b5f99d379f
+_id: req_137bb5d26a25472e904502b40ccf0db2
 type: Request
-parentId: fld_fa48292971ef4fa087e52db23c2e4e01
-modified: 1695841199220
-created: 1695141758498
-url: "{{ _.base_url }}/orders/{% request 'parameter', 'id', 0 %}"
-name: Orders FindById
+parentId: fld_78bea83d4a8948c7aae165aa0290706a
+modified: 1695850906836
+created: 1695843753499
+url: "{{ _.base_url }}/users/{% request 'parameter', 'id', 0 %}"
+name: Users IntegrityViolation DeleteById
 description: ""
-method: GET
+method: DELETE
 body: {}
 parameters:
   - id: pair_7ff6a8b63a9a43a79fb8b403de464577
@@ -18,7 +18,7 @@ headers:
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1695841195832
+metaSortKey: -1695841121568
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
